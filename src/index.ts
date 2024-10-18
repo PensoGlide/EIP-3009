@@ -42,7 +42,6 @@ try {
   console.log("Signed: ", signature);
 
   // Sponsor will execute the transaction
-  /*
   const receipt = await transferWithAuthorization(
     sponsorWallet,
     userWallet.address,
@@ -52,7 +51,7 @@ try {
     nonce,
     signature
   );
-  */
+  console.log("Receipt: ", receipt)
 } catch (error) {
   console.error(error);
 }
